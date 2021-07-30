@@ -1,0 +1,10 @@
+{
+    "searchInput":"#search_form_input_homepage",
+    "searchInputInResults":"#search_form_input",
+    "searchButton":"#search_button_homepage",
+    "hintSearchTexts":"span[class='t-normal']",
+    "hintSearchCol":"div[class='acp']",
+    "searchResultslinks":"a[class='result__a js-result-title-link']",
+    "correctnessDiv":"#did_you_mean",
+    "suggestionMessage":".js-spelling-suggestion-link"
+}

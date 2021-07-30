@@ -1,0 +1,15 @@
+{
+    "newuser": {
+        "name": "Tenali sRamakrishna new test 2 ",
+        "gender": "male",
+        "email": "tenalisss.test22.2test@15ce.com",
+        "status": "active"
+    },
+    "updateuser": {
+        "name": "Allasani Peddana",
+        "email": "allasani.peddana.test@15ce.com",
+        "status": "active"
+    },
+    "userid": 1938,
+    "userdeleteId":2003
+}

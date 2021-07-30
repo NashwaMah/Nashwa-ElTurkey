@@ -1,0 +1,29 @@
+{
+  "name": "duckduckgo-project",
+  "version": "1.0.0",
+  "description": "duckduckgo Search Engine",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome  ./duckduckgo-project/tests  --skip-js-errors --disable-page-caching -s takeOnFails=true,path=artifacts/screenshots/duckduckgo,pathPattern='${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${TEST}_${FILE_INDEX}.png' ,html:HTML-Reports/duckduckgo.html,spec ",
+    "test:firefox": "testcafe firefox ./duckduckgo-project/tests   --skip-js-errors --disable-page-caching",
+    "test:safari": "testcafe safari ./duckduckgo-project/tests  --skip-js-errors --disable-page-caching",
+    "test:edge": "testcafe edge ./duckduckgo-project/tests   --skip-js-errors --disable-page-caching",
+    "test:mobile": "testcafe chrome:emulation:device=iphone X ./duckduckgo-project/tests --skip-js-errors --disable-page-caching s",
+    "test:api": "testcafe chrome:headless  ./APITest/tests  --skip-js-errors --disable-page-caching"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NashwaMah/Nashwa-Kamal"
+  },
+  "author": "Nashwa Kamal",
+  "license": "ISC",
+  "homepage": "https://github.com/NashwaMah/Nashwa-Kamal/blob/main/README.md",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-installer": "^1.0.2",
+    "testcafe": "^1.14.0"
+  },
+  "devDependencies": {}
+}
