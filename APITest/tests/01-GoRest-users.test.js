@@ -17,7 +17,7 @@ test(' -----  Get user by ID   -----', async t => {
 });
 
 
-test.only(' -----  Get All users    -----', async t => {
+test(' -----  Get All users    -----', async t => {
     await gorest_api.GetAllUsers()
 });
 
