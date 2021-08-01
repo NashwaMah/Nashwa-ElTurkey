@@ -42,7 +42,7 @@ test('------ Search with Wrong Spelling and check correctness suggestions  -----
 
 });
 
-test.only ('----- Check search with % not giving 404 error ', async t => {
+test ('----- Check search with % not giving 404 error ', async t => {
 
     await duckduckgo_homepage.SearchUsingSearchButton("%")
     await duckduckgo_searchResultpage.CheckNotFound()
